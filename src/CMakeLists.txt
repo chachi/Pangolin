@@ -26,12 +26,12 @@ if(BUILD_PANGOLIN_GUI)
     ${INCDIR}/display.h ${INCDIR}/display_internal.h 
     ${INCDIR}/view.h ${INCDIR}/viewport.h
     ${INCDIR}/handler.h ${INCDIR}/opengl_render_state.h
-    ${INCDIR}/plotter.h
+    ${INCDIR}/plotter.h ${INCDIR}/datalog.h
   )
   list(APPEND SOURCES
     display.cpp view.cpp viewport.cpp
     handler.cpp opengl_render_state.cpp
-    plotter.cpp
+    plotter.cpp datalog.cpp
   )
 endif()
 
